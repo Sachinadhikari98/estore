@@ -1,12 +1,17 @@
-<?php
+<?php 
+session_start();
 include "header.php";
 ?>
-<div class="content">
-<?php
-$user = isset($_SESSION['user']) ? $_SESSION['user'] : 'Guest';
-echo "Welcome to the dashboard, $user!";
-?>
+
+<div id="welcome_box">
+    <h2>Welcome, Admin 👋</h2>
+    <p>Manage your store, products and users from here</p>
 </div>
-<?php
+
+<div class="dashboard-content">
+    <!-- Your dashboard content here -->
+</div>
+
+<?php 
 include "footer.php";
 ?>

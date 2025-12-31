@@ -1,3 +1,3 @@
 <div class="content">
-content here
+    This is a content page
 </div>
