@@ -1,4 +1,4 @@
-<?php require "../database.php";
+<?php require "../datbase.php";
 $name = $_POST['product_name'];
 $description = $_POST['product_description'];
 $price = ['product_price'];
